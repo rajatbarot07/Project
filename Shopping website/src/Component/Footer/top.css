@@ -1,0 +1,93 @@
+.ftr-top{
+   background: #171613;
+   padding-top: 63px;
+   
+}
+.ftr1{
+    border-bottom: 1px solid rgba(255,255,255,0.14);
+    padding-bottom: 50px;
+}
+.subs-content{
+    text-align: left;
+}
+.subs-content h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #fff;
+}
+.subs-content p{
+    color: #fff;
+    font-size: 15px;
+}
+.subs-inp input{
+    height: 60px;
+    width: 74%;
+    border: 0;
+    outline: none;
+    background: #fff;
+    padding: 15px 24px;
+    border: 1px solid rgba(255,255,255,0.2);    
+}
+.subs-inp input::placeholder{
+    color: #000!important;
+    font-size: 16px;
+}
+.subs-inp button{
+    height: 60px;
+    width: 24%;
+    border: 0;
+    background: red;
+    padding: 13px 24px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.subs-icon a{
+    color: #677F8B;
+    font-size: 24px;
+    margin-left: 23px;
+    text-align: center;
+    transition: all 0.2s ease-in;
+}
+.subs-icon a i{
+    transition: all 0.2s ease-in;
+}
+.subs-icon a:hover i{
+    color: red;
+    transform: scaleX(-1);
+}
+
+@media (min-width: 500px){
+    .ftr-top{
+        padding: 0;
+    }
+    .subs-inp input{
+        width: 100%;
+        margin: 0;    
+    }
+    .subs-inp button{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .ftr1{
+        padding-bottom: 30px;
+    }
+    .subs-icon{
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+}
+
+@media (min-width: 575px){
+    .subs-inp input{
+        width: 70%;
+    }
+    .subs-inp button{
+        width: 25%;
+        margin-left: 10px;
+    }
+}

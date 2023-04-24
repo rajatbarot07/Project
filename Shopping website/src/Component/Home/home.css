@@ -1,0 +1,119 @@
+/* .main{
+    position: relative;
+    min-height: 700px;
+}
+.main .prevbtn,.nextbtn{
+    height: 80px;
+    width: 40px;
+    line-height: 90px;
+    text-align: center;
+    background: rgba(41,38,33,0.2);
+}
+.main .prevbtn:hover,.nextbtn:hover{
+    background: black;
+    transition: all 0.3s ease-in-out;
+}
+.main .prevbtn{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 3;
+}
+.main .nextbtn{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: 3;
+}
+.main  i{
+    color: #fff;
+    font-size: 35px!important;
+}
+.background1{
+    background-image: url("../images/bg1.jpg");
+    background-size: 100% 100%;
+    min-height: 700px;
+    padding: 200px 850px 0 40px;
+    position: absolute;
+    /* top: 0%;
+    left: 0%; 
+    z-index: 1;
+}
+.background2{
+    background-image: url("../images/bg2.jpg");
+    background-size: 100% 100%;
+    min-height: 700px;
+    padding: 200px 0 0 900px;
+    position: absolute;
+    /* top: 0%;
+    left: 0%; 
+    z-index: -1;
+}
+.about span{
+    color: #FF2020;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Clicker Script";
+}
+.about h1{
+    color: #292621;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Jost";
+    animation: bounce-in 1s ;
+}
+.effect{
+    animation: fadeInUp 1s;
+}
+.about p{
+    color: #74706B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost";
+    padding: 0 50px;
+    margin-bottom: 40px;
+    animation: fadeInUp 1s;
+}
+.about a{
+    padding: 15px 47px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0!important;
+    text-decoration: none;
+    background-color: #292621;
+    color: #fff;
+    animation: fadeInUp 1s;
+}
+.about a:hover{
+    color: #000!important;
+    border: 1px solid #000;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+
+  @keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    70% { transform: scale(.9); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes fadeInUp {
+    from {
+        transform: translate3d(0,80px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+} */

@@ -1,0 +1,40 @@
+.home-blog{
+    background: #F6F6F6;
+}
+.images{
+    margin-bottom: 25px;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+}
+.news-main:hover .content-news h4{
+    color: red;
+}
+.content-news{
+    text-align: left;
+}
+.content-news span{
+    color: #74706B;
+}
+.content-news h4{
+    color: #292621;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    transition: all 0.2s ease-in;
+}
+.content-news p{
+    color: #74706B;
+    margin-bottom: 24px;
+}
+.content-news a{
+    color: #292621;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+}
+.content-news a:hover{
+    letter-spacing: 0.5px;
+}

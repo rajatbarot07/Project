@@ -1,0 +1,218 @@
+.check-title h2{
+    font-size: 14px;
+    background-color: #f4f4f4;
+    padding-left: 30px;
+    line-height: 40px;
+    font-family: 'Roboto';
+}
+.check-title h2 a{
+    color: red;
+    text-decoration: underline;
+}
+.check-area p{
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.contact-form{
+    max-width: 710px;
+    margin-left: 15px;
+}
+.contact-form input::placeholder{
+    font-size: 16px;
+}
+.check-demo{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.btn-log{
+    height: 45px;
+    width: 100px;
+    background-color: red;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 50px;
+    overflow: hidden;
+    /* margin-top: 25px; */
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-log:hover{
+    color: #fff;
+}
+.btn-log::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    width: 102%;
+    height: 102%;
+    background-color: #cf0f0f;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btn-log:hover::before {
+    transform: scaleX(1);
+    z-index: -1
+}
+.contact-form #checkbox{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.check-demo label{
+    margin-left: 5px;
+}
+.coupon-area{
+    margin-bottom: 30px;
+}
+.coupon-area input::placeholder{
+    font-size: 16px;
+}
+.coup-code{
+    max-width: 730px;
+    margin-left: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.coup-btn{
+    width: 150px!important;
+}
+.billing-area h3{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.billing-area .form-group{
+    margin-bottom: 25px;
+}
+.drop-list{
+    height: 45px;
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    transition:  all 0.2s ease-in-out;
+    position: relative;
+}
+.drop-list:not(:first-child){
+    margin-top: 20px;
+}
+.drop-list span{
+    color: gray;
+    line-height: 45px;
+    margin-left: 20px;
+   
+}
+.drop-list::after{
+    content: '\f107';
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    top: 22%;
+    right: 3%;
+    color: gray;
+}
+.drop-list .list{
+    /* margin-top: 30px; */
+    border: 1px solid lightgray;
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: sticky;
+    background-color: #fff;
+   
+}
+.drop-list .list li{
+    padding-top: 10px;
+    padding-left: 15px; 
+    color: gray;
+}
+.drop-list .list li:hover{
+    background-color: #f6f6f6;
+}
+.billing-area .form-check-input{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.billing-area textarea{
+    height: 150px;
+    margin-top: 30px;
+}
+.form-group input::placeholder{
+    font-size: 16px!important;
+}
+.order-box{
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+.order-box h2{
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+}
+.order-box ul{    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.order-box ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #797979;
+    border-bottom: 1px solid #eeeeee;
+    line-height: 42px;
+}
+.order-box ul li a span{
+    float: right;
+    color: #797979;
+}
+.order-box ul li a .middle{
+    float: none;
+    text-align: right;
+    color: #2a2a2a;
+    margin-left: 30px;
+    width: 50px;
+    display: inline-block;
+}
+.list2 li a{
+    font-weight: 600;
+    color: #2a2a2a!important;
+}
+.list2 li a span{
+    font-weight: 600;
+} 
+.list2 li:last-child a span{
+    color: #2a2a2a;
+}
+.pay-item p{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+.conditions label{
+    font-size: 12px;
+}
+.conditions label a{
+    color: red;
+    text-decoration: none;
+}
+.pay-btn{
+    margin-top: 20px;
+}
+.pay-btn .payment-btn{
+    width: 100%;
+}
+
+@media(max-width:400px)
+{
+    
+}

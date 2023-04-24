@@ -1,0 +1,25 @@
+.sect4{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.tittle h1{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 500px){
+    .sect4{
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+}
+
+@media (min-width: 991px){
+    .slick-prev{
+        /* left: -15px!important; */
+    }
+    .slick-next{
+        /* left: 0px!important; */
+    }
+}

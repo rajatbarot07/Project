@@ -1,0 +1,31 @@
+.cat1{
+    background-color: #F3EAD8;
+}
+.cat2 {
+    text-align: center;
+}
+.cat2 h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.cat2 ul{
+    padding: 0!important;
+}
+.cat2 ul li{
+    display: inline-block;
+}
+.cat2 ul li a{
+    color: #74706B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.cat2 ul .head-1 a{
+    margin: 0!important;
+}
+.cat2 ul .cont a::before{
+    display: inline-block;
+    color: #74706B;
+    content: "|";
+    padding: 0 10px;
+}

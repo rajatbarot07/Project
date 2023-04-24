@@ -1,0 +1,62 @@
+.login1{
+    box-shadow: 0px 3px 15px 3px #888888;
+    padding: 50px 20px;
+    width: 50%!important;
+}
+.login1 h2{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.login1 p{
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.login1 form label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.login1 form input{
+    border: 1px solid #C9C9C9;
+    border-radius: 0px;
+    padding: 15px 20px;
+}
+::placeholder{
+    font-size: 13px;
+}
+.login1 form input[type=checkbox]{
+    padding: 0;
+}
+.forget{
+    padding-left: 300px;
+    text-decoration: none;
+    color: red;
+}
+.forget:hover{
+    color: red;
+}
+.user-name{
+    margin-bottom: 20px;
+}
+.log{
+    margin-left: 80px;
+}
+.log button{
+    background-color: red;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 0px;
+}
+.log button:hover{
+    background-color: white;
+    border: 2px solid;
+}
+.keep-check{
+    margin-bottom: 80px!important;
+}
+.cnf-space{
+    margin-bottom: 80px;
+}

@@ -1,0 +1,73 @@
+.sect1{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.myshadow{
+    position: relative;
+}
+.myshadow .images{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.myshadow .images img{
+    width: 100%;
+    height: 100%;
+}
+.myshadow .images::before{
+    background: linear-gradient(to bottom, rgba(41,38,33,0) 0%, #292621 100%);
+    background: -webkit-linear-gradient(top, rgba(41,38,33,0) 0%, #292621 100%);
+}
+.myshadow .images::before{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    content: " ";
+}
+.heading{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    transition: all 0.4s ease-out;
+    text-align: center!important;
+}
+.myshadow .heading h4 a{
+    color: #fff!important;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 9px;
+}
+.myshadow .heading .browse-btn{
+    text-decoration: none;
+    color: #CEBD9C;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom: 2px solid #CEBD9C ;
+    transition: all 0.3s ease-out;
+    margin-bottom: -2px;
+}
+.myshadow:hover .heading{
+    bottom: 40px;
+    transition: all 0.3s ease-out;
+}
+.myshadow:hover .browse-btn{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 500px)
+{
+   .sect1{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+   }
+}
+

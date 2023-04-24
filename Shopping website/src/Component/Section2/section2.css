@@ -1,0 +1,74 @@
+.nav-button{
+    border-bottom: 2px solid lightgrey;
+}
+.nav-tabs .active{
+    color: red;
+    border-bottom: 4px solid red;
+}
+.nav-tabs a{
+    text-decoration: none;
+    color: #292621;
+    font-size: 16px;
+    font-weight: 600!important;
+    padding: 29px 12px;
+    padding-top: 0;
+    margin-right: 10px;
+}
+.nav-tabs a:hover{
+    border-bottom:  4px solid red;
+    color: red;
+}
+.nav-tittle h2{
+    color: #292621;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 500px){
+    .nav-button{
+        border-bottom: none;
+    }
+    .nav-tabs{
+        border-bottom: none!important;
+    }
+    .nav-tabs a{
+        border-bottom: none!important;
+    }
+  
+}
+
+@media (min-width: 575px){
+    .nav-button{
+        border-bottom: none;
+    }
+    .nav-tabs .active{
+        border-bottom: 4px solid red!important;
+    }
+    .nav-tabs a:hover{
+         border-bottom:  4px solid red!important;
+    }
+  
+}
+
+@media (min-width: 767px){
+    .sect2 .nav-button{
+        border-bottom: 2px solid lightgrey;
+    }
+    .nav-tabs .active{
+        border-bottom: 4px solid red!important;
+    }
+    .nav-tabs a:hover{
+         border-bottom:  4px solid red!important;
+    }
+  
+}
+
+@media (min-width: 991px){
+    .nav-tittle h2{
+        text-align: left;
+    }
+    .nav-tabs{
+        text-align: right!important;
+    }
+}

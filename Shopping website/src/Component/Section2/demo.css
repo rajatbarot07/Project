@@ -1,0 +1,119 @@
+.container {
+    padding: 40px;
+    /* background: #419be0; */
+    position: relative;
+}
+  
+.slick-slide img {
+    margin: auto;
+    height: 340px!important;
+    width: 95%!important;
+    margin-bottom: 10px;
+}
+.slick-next,.slick-prev{
+    top: 45%;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    color: black;
+}
+.imgdata{
+    position: relative;
+}
+.imgdata h3 a{
+    color: #292621;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+.imgdata h3 a:hover{
+    color: red;
+}
+.imgdata span{
+   font-weight: 600;
+   font-size: 16px;
+   cursor: pointer;
+   text-align: center!important;
+}
+.imgdata span:not(:last-child)
+{
+    color: #74706B;
+    margin-right: 10px;
+}
+.imgdata span:not(:last-child):hover{
+    color: #000;
+}
+.imgdata span:not(:first-child)
+{
+    color: #CEBD9C;
+}
+.icons
+{    
+    position: absolute;
+    left: 30%;
+    bottom: 100px;  
+    display: none; 
+    /* padding-left: 80px;  */
+}
+
+.icons a
+{    
+    color: #292621;
+    background-color: #fff; 
+    height: 40px;
+    display: inline-block; 
+    line-height: 50px;
+    width: 60px;
+    transition: all 0.3s ease-in;
+}
+.icons a i{
+    text-align: center!important; 
+    padding: 0;
+    font-size: 25px!important;
+}
+
+.icons a:hover{
+    background-color: red;     
+}
+.icons a:hover i{
+    color: #fff; 
+}
+.imgdata:hover .icons{
+    display: block;
+
+}
+
+@media (min-width: 500px){
+    .slick-next,.slick-prev{
+        display: none!important;
+    } 
+    .icons{
+        padding: 0;
+        display: none;
+    }  
+    .imgdata{
+        /* display: grid; */
+        /* grid-template-rows: 6fr 6fr; */
+    }
+}
+@media (min-width: 991px){
+    .slick-next,.slick-prev{
+        display: block!important;
+    } 
+    .slick-prev{
+        left: -15px!important;
+    }
+}
+
+@media (min-width: 1199px){
+    .slick-prev{
+        left: -30px!important;
+    }
+    .icons{
+        /* padding-left: 80px; */
+    }
+}

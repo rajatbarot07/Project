@@ -1,0 +1,27 @@
+.categories-area{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.icon-bdr:not(:last-child){
+    border-right: 1px solid #57667e;
+}
+.img-logo img{
+    margin-bottom: 26px;
+}
+.img-about h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2B2B2B;
+    margin-bottom: 12px;
+}
+.img-about p{
+    color: #57667e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (min-width: 500px){
+    .icon-bdr:not(:last-child){
+        border-right: none;
+    }
+}
